@@ -1,6 +1,7 @@
 import machine #calling libraries
 import ads1x15
 import uasyncio
+from machine import UART
 
 uart = UART(0,9600)
 gain = 1
